@@ -1,5 +1,5 @@
-pip-requirements
-wheel @ file:///opt/homebrew/Cellar/python%403.12/3.12.9/libexec/wheel-0.45.1-py3-none-any.whl#sha256=9e1d46c70b64e17215059896fbdf70ed1c4ab6696302458ffd8d4932dd04bb7c
+# Requirements for running the notebooks
+# Run: pip install -r requirements.txt (preferably inside a virtual env)
 
 # Core data science / notebook packages
 pandas
@@ -9,6 +9,7 @@ seaborn
 scikit-learn
 scipy
 plotly
+shap
 
 # Excel support used by notebooks
 openpyxl
@@ -18,3 +19,6 @@ xlrd
 jupyter
 notebook
 ipykernel
+
+# utility
+wheel

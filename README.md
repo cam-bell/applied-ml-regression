@@ -90,11 +90,13 @@ _(Optional: add Colab badges linking to copies of the notebooks if you host them
 
 ---
 
-## Optional: `data_description.md` and `results_summary.md`
+## Project Context & Authorship
 
-| File                      | Purpose                                                                                         | Recommendation                                                                          |
-| ------------------------- | ----------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
-| **`data_description.md`** | Short description of each dataset (source, columns, target, sample size, license).              | **Good idea.** Lets recruiters understand inputs without opening a notebook.            |
-| **`results_summary.md`**  | Bullet summary of main results: best model per case study, 2–3 metrics, 1–2 business takeaways. | **Good idea.** Complements the README and gives a single place for “what was achieved.” |
+This project originated as a group coursework assignment.  
+The data analysis, modelling pipeline, feature engineering, and pricing insights in this repository were primarily developed by me.
 
-Keep both to **one short page each** so they stay skim-friendly. The README stays the main entry point; these two files support deeper but still quick scanning.
+Following the coursework submission, I independently refactored, extended, and documented the work for portfolio purposes, including improvements to reproducibility, structure, and interpretation.
+
+## Supporting Materials
+
+- Executive presentation summarising analytical findings and pricing recommendations
