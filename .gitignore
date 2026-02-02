@@ -208,3 +208,6 @@ __marimo__/
 
 # Ignore the reviewer attachment / local review notes
 READMEreview.md
+
+
+.DS_Store
