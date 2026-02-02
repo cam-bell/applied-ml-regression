@@ -59,12 +59,24 @@ _(Add specific R²/MAE/MSE from your runs here once you run or extend the Madrid
 ```
 ├── README.md                 # This file
 ├── requirements.txt          # Python dependencies
-├── data/                     # Datasets (paths used in notebooks)
-│   ├── houses_for_rent_madrid.xlsx
-│   └── ...
-└── notebooks/               # Jupyter notebooks
-    ├── madrid_housing_rent_regression.ipynb
-    └── vehicle_pricing_valuation.ipynb
+├── data/                     # Datasets used by notebooks
+│   ├── Boston.csv
+│   ├── Cars_rdm.csv
+│   └── houses_for_rent_madrid.xlsx
+├── notebooks/                # Top-level Jupyter notebooks
+│   └── cameron_bell_linear_regression_assessment.ipynb
+├── projects/                 # Project folders with notebooks and docs
+│   ├── madrid_housing/
+│   │   ├── data_description.md
+│   │   ├── madrid_housing_rent_regression.ipynb
+│   │   └── results_summary.md
+│   └── used_car_pricing/
+│       ├── data_description.md
+│       ├── vehicle_pricing_valuation.ipynb
+│       └── results_summary.md
+├── presentation/             # Supporting materials
+│   └── Data Analytics Presentation.pdf
+└── results_summary.md        # High-level results and notes
 ```
 
 ---
